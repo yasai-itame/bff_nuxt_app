@@ -1,5 +1,5 @@
 # compiled output
-.dist
+frontend/dist
 .node_modules
 .build
 
