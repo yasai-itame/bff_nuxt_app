@@ -6,14 +6,5 @@
       "src": "package.json",
       "use": "@vercel/node"
     }
-  ],
-  "env": {
-    "NODE_ENV": "production"
-  },
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "/dist/main.js"
-    }
   ]
 } 
