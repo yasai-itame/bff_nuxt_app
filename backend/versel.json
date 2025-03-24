@@ -3,19 +3,14 @@
 
   "builds": [
     {
-      "src": "./dist/src/main.js",
+      "src": "backend/dist/server.js",
       "use": "@vercel/node"
     }
   ],
-  "build": {
-    "env": {
-      "DEBUG": "true"
-    }
-  },
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "./dist/src/main.js"
+      "dest": "backend/dist/server.js"
     }
   ],
   "buildCommand": "npm run vercel-build"
