@@ -6,7 +6,7 @@
   "private": true,
   "license": "UNLICENSED",
   "scripts": {
-    "vercel-build": "npx prisma generate && npx prisma migrate deploy && npm run build --debug && ls -la && ls -la dist",
+    "vercel-build": "npx prisma generate && npx prisma migrate deploy && npm run build && ls -la dist && cat dist/src/main.js || echo 'main.js not found'",
     "build": "nest build",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
     "start": "nest start",
