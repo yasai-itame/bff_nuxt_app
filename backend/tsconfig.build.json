@@ -1,10 +1,4 @@
 {
-  "compilerOptions": {
-    "outDir": "./dist",  // これを変更して、出力先を `dist/` にします
-    "rootDir": "./src",
-    // その他の設定
-  },
-  "include": ["src/**/*"],
   "extends": "./tsconfig.json",
   "exclude": ["node_modules", "test", "dist", "**/*spec.ts"]
 }
