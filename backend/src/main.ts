@@ -18,4 +18,4 @@ async function bootstrap() {
   await app.init();
   return app.getHttpAdapter().getInstance();
 }
-bootstrap();
+export default bootstrap();
