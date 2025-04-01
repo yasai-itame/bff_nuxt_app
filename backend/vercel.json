@@ -6,7 +6,7 @@
       "src": "dist/main.js",
       "use": "@vercel/node",
       "config": {
-        "buildCommand": "npm run postinstall"
+        "buildCommand": "npm run build"
       }
     }
   ],
