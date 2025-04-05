@@ -1,5 +1,5 @@
 import { Injectable, UsePipes } from "@nestjs/common";
-import { ZodValidationPipe } from "@/common/zod-validation.pipe";
+import { ZodValidationPipe } from "../common/zod-validation.pipe";
 import { CreateTodoSchema, CreateTodoDto, ListTodoSchema, ListTodoDto, CombinedSchema, CombinedDto, UpdateTodoSchema, UpdateTodoDto, DeleteTodoSchema, DeleteTodoDto } from "./dto/todo.dto";
 import { PrismaService } from "../prisma.service";
 
