@@ -13,5 +13,6 @@
       "dest": "dist/src/main.js"
     }
   ],
+  "outputDirectory": "dist",
   "buildCommand": "npm run postinstall"
 } 
